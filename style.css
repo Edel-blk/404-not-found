@@ -73,16 +73,32 @@ footer {
   img {
     width: 540px;
   }
+  
+  p {
+    font-size: 24px;
+  }
 
   .container {
     display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 150px;
   }
 
   .title {
     font-size: 64px;
   }
 
-  p {
-    font-size: 24px;
+  .content {
+    max-width: 1200px;
   }
+
+  .wrapper {
+    text-align: -webkit-center;
+  }
+
+  .header {
+    text-align: left;
+  }
+
 }
