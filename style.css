@@ -64,3 +64,22 @@ footer {
   font-weight: 700;
   letter-spacing: -2.24px;
 }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  img {
+    width: 540px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .title {
+    font-size: 64px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
