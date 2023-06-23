@@ -1,16 +1,14 @@
 body {
   margin: 0px;
-  padding: 20px;
-  justify-content: center;
 }
 
 img {
-  width: 300px;
+  width: 540px;
 }
 
 p {
   color: var(--gray-2, #4F4F4F);
-  font-size: 18px;
+  font-size: 24px;
   font-family: Space Mono;
   letter-spacing: -0.84px;
 }
@@ -26,7 +24,6 @@ button {
   height: 68px;
   background: var(--gray-1, #333);
   border: none;
-  margin-top: 50px;
 }
 
 footer {
@@ -35,7 +32,9 @@ footer {
   font-size: 14px;
   font-family: Montserrat;
   font-weight: 500;
-  margin-top: 30px;
+  position: fixed;
+  bottom: 10px;
+  left: 40px;
 }
 
 .header {
@@ -45,21 +44,22 @@ footer {
   font-weight: 700;
   letter-spacing: -1.92px;
   text-transform: uppercase;
-  margin: 0px;
 }
 
-.container {
-  text-align: center;
-  margin-top: 40px;
+.container{
+  display: flex;
+  margin-top: 200px;
 }
 
-.text-container {
-  text-align: left;
+.welcome {
+  padding: 40px;
+  display: grid;
+  justify-content: center;
 }
 
 .title {
   color: var(--gray-1, #333);
-  font-size: 48px;
+  font-size: 64px;
   font-family: Space Mono;
   font-weight: 700;
   letter-spacing: -2.24px;
